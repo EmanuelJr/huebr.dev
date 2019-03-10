@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #24ae4d;
+}
+
+.center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+@media(min-width:576px) {
+  .image {
+    height: 100%;
+  }
+}
+
+@media(min-width:768px) {
+  .image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media(min-width:992px) {
+  .image {
+    width: 100%;
+  }
+}
+
+@media(min-width:1200px) {
+  .image {
+    width: auto;
+  }
+}

@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #24ae4d;
+  background: url('./pisca.gif') repeat;
 }
 
 .center {
